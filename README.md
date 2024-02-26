@@ -13,7 +13,7 @@ This Python project automates the generation of a report on the top 10 largest b
 
 * CSV file: Largest_banks_data.csv
 * Database: Banks.db, table: Largest_banks
-* Log file: code_log.txt
+* Log file: ETL.log
 
 ## Project Tasks
 
@@ -23,13 +23,13 @@ This Python project automates the generation of a report on the top 10 largest b
 4. **CSV Output:** Build a `load_to_csv()` function to save the transformed DataFrame as a CSV file at the specified path.
 5. **Database Output:** Implement a `load_to_db()` function to insert the DataFrame into the specified database table.
 6. **SQL Queries:** Execute predefined queries on the database table using a `run_queries()` function and verify the results.
-7. **Log Verification:** Ensure all stages are logged by checking `code_log.txt`.
+7. **Log Verification:** Ensure all stages are logged by checking `ETL.log`.
 
 ## Script Execution
 
 1. Ensure necessary libraries are installed (pandas, requests, etc.).
 2. Customize parameters like URLs and paths if needed.
-3. Run `python banks_project.py`.
+3. Run `main.py`.
 
 ## Additional Notes
 

@@ -1,3 +1,5 @@
 IBM-Template/*
 IBM-Template/.**
 **/.DS_Store
+__pycache__
+prototyping.ipynb
